@@ -106,7 +106,7 @@ blockquote.wp-block-quote {
   perspective: 1500px;
 }
 .perspective-left img {
-  transform: rotateX(8deg) rotateY(-20deg) rotateZ(2deg);
+  transform: rotateX(0deg) rotateY(15deg) translateZ(-22px);
   box-shadow: -37px -3px 23px rgb(0 0 13 / 40%);
   border-radius: 20px 20px;
 }
