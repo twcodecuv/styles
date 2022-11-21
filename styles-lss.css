@@ -111,6 +111,16 @@ blockquote.wp-block-quote {
   border-radius: 20px 20px;
 }
 
+.perspective-right {
+  perspective: 1500px;
+}
+
+.perspective-right img {
+  transform: rotateY(-15px) rotateX(0) rotateZ(-20);
+  box-shadow: -37px -3px 23px rgb(0 0 13 / 40%);
+  border-radius: 20px 20px;
+}
+
 /**
 	0.0.2	General_Customisaion_Author_Code
 */
