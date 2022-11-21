@@ -102,7 +102,7 @@ blockquote.wp-block-quote {
   text-transform: uppercase;
 }
 
-.perspective-left {
+.ob-has-background-overlay > .elementor-widget-container .perspective-left {
   perspective: 1500px;
 }
 .perspective-left img {
