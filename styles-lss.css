@@ -1,0 +1,374 @@
+/*
+Version: 1.0.1.2
+Author: Clinuvel web team
+Author URI: https://www.clinuvel.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+These are adjustments to the hello-child theme
+currently in use.
+
+*/
+
+/**	----------------------------
+
+	TABLE OF CONTENTS:
+
+	0.	Element Base
+	1.  Helpers
+	2.  Customisations
+	3.	Media Queries
+
+---------------------------- */
+
+/**	----------------------------
+
+	0.		Elements Base
+
+---------------------------- */
+
+/**
+	0.0.1	General
+*/
+h1,
+h2,
+h3,
+h4 {
+}
+p {
+  line-height: 1.9em;
+}
+
+.p-standard {
+  padding-top: 105px;
+  padding-bottom: 195px;
+}
+.p-extended.even {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.p-contracted.even {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.page.container {
+  margin-bottom: 40px;
+  max-width: 1400px;
+  padding: 0 40px;
+}
+.page.container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page.container article {
+  margin-right: 40px;
+  width: 71%;
+}
+.page.container aside {
+  width: 29%;
+}
+
+.data-meta {
+  margin: 10px 0;
+}
+
+blockquote.wp-block-quote {
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.bullet-none {
+  margin: 0;
+  padding: 0;
+}
+.bullet-none li {
+  list-style-type: none;
+}
+
+.link-instagram {
+  padding-top: 40px;
+}
+.link-instagram .wp-block-button {
+  box-shadow: 7px 6px 17px -6px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.perspective-left {
+  perspective: 1500px;
+}
+.perspective-left img {
+  transform: rotateX(-30deg) rotateY(-148deg) rotateZ(-3deg);
+  box-shadow: 40px -2px 30px rgb(0 0 13 / 40%);
+  border: solid 5px rgb(0, 0, 0);
+  border-radius: 20px 20px;
+  z-index: -2;
+  margin-top: 5em;
+}
+
+/**
+	0.0.2	General_Customisaion_Author_Code
+*/
+
+/* *
+Persective Styles And Drop Shadows- Author: CodeCUV 
+* */
+
+.inner-sec {
+  width: 100%;
+  margin-top: -15%;
+}
+
+/* *
+Persective Styles And Drop Shadows- Author: CodeCUV 
+* */
+
+/**	----------------------------
+	0.1		Posts
+---------------------------- */
+
+/**
+	0.1.1	General
+*/
+
+figure.page-banner {
+  margin: 0;
+  width: 100%;
+}
+figure.page-banner .wp-post-image {
+  display: block;
+  width: 100%;
+}
+
+.footer-post {
+  border-top: solid 1px #a5a7aa;
+  border-bottom: solid 1px #a5a7aa;
+  margin: 60px 0 30px 0;
+  padding: 30px 0;
+}
+.footer-post .navigation-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-post .next,
+.footer-post .previous {
+  width: 50%;
+}
+.footer-post .next {
+  text-align: right;
+}
+.footer-post .next div {
+  padding-left: 10px;
+  text-align: right;
+}
+.footer-post .previous div {
+  padding-right: 10px;
+}
+.footer-post .navigation-post div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-post .navigation-post a {
+  display: block;
+}
+.footer-post .navigation-post > div:first-of-type {
+  border-right: solid 1px #d4d4d4;
+}
+.footer-post .navigation-post i {
+  font-size: 30px;
+}
+
+/**
+	0.1.2	Ambassadors
+*/
+
+.is-type-video.page-banner img.attachment-post-thumbnail {
+  position: absolute;
+  z-index: 100;
+}
+
+.is-type-video.page-banner .wp-block-embed__wrapper {
+  z-index: 50;
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.post-template-lss-ambassador figure.page-banner {
+  overflow: hidden;
+  position: relative;
+  box-shadow: 10px 10px #d4caca;
+  margin-bottom: 40px;
+}
+.cover-image {
+  transition: all ease-in 1s;
+  cursor: pointer;
+}
+.cover-image .icon.play {
+  font-size: 120px;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  z-index: 101;
+  top: 50%;
+  text-shadow: 1px 0 6px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+.cover-image:hover .icon.play {
+  opacity: 1;
+}
+.hide-image {
+  opacity: 0;
+}
+
+/**	----------------------------
+	0.2		Blockquotes
+---------------------------- */
+
+/**
+	0.2.1	Q&A - Your Stories
+*/
+
+.q-and-a {
+  box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.5);
+  margin: 40px auto 60px auto;
+  min-height: auto;
+  padding: 43px 50px;
+}
+.q-and-a .wp-block-cover__inner-container > :first-child {
+  margin-top: 0;
+}
+.q-and-a .wp-block-cover__inner-container > :last-child {
+  margin-bottom: 0;
+}
+.q-and-a .wp-block-quote {
+  border: none;
+  box-shadow: none;
+}
+.q-and-a .wp-block-quote p:first-of-type::before {
+  content: none;
+}
+.q-and-a .wp-block-quote {
+  margin: 0;
+  padding: 0;
+}
+.q-and-a .wp-block-quote p {
+  font-family: "Cy";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43px;
+  margin-bottom: 20px;
+}
+.q-and-a .wp-block-quote p,
+.q-and-a .wp-block-quote cite,
+.wp-block-cover.q-and-a h2,
+.wp-block-cover.q-and-a h3,
+.wp-block-cover.q-and-a h4 {
+  color: #5b5050;
+}
+.q-and-a p,
+.q-and-a .wp-block-quote cite {
+  font-size: 16px;
+  font-style: normal;
+}
+
+/**	----------------------------
+	0.3		Asides
+---------------------------- */
+
+/**
+	0.3.1	Ambassadors template
+*/
+.post-template-lss-ambassador aside {
+  margin: 0 45px;
+}
+.post-template-lss-ambassador .sidebar {
+  box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.post-template-lss-ambassador .sidebar h2,
+.post-template-lss-ambassador .sidebar h3,
+.post-template-lss-ambassador .sidebar h4 {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.post-template-lss-ambassador .sidebar h2 {
+  border-bottom: solid 2px #000000;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.post-template-lss-ambassador aside .wp-block-latest-posts__featured-image {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.post-template-lss-ambassador aside .wp-block-latest-posts__list li {
+  overflow: hidden;
+  display: block;
+  margin-bottom: 15px;
+}
+.post-template-lss-ambassador aside .wp-block-latest-posts__post-title {
+  font-weight: 700;
+}
+
+/*___________________________________________
+
+0.0.5
+
+
+
+
+
+______________________________________________*/
+
+/**	----------------------------
+
+	1. Helpers
+
+---------------------------- */
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+/**	----------------------------
+
+	2. Customisations
+
+---------------------------- */
+
+/**	----------------------------
+
+	3.Media Queries
+
+---------------------------- */
+
+@media (max-width: 1023px) {
+  .page.container main {
+    flex-direction: column;
+  }
+
+  .page.container article,
+  .page.container aside {
+    width: 100%;
+  }
+
+  .page {
+    margin: 0 40px;
+  }
+
+  .post-template-lss-ambassador aside {
+    margin: 0;
+  }
+}
