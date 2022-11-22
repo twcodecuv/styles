@@ -129,7 +129,7 @@ Persective Styles And Drop Shadows- Author: CodeCUV
   border-radius: 20px 20px;
 }
 
-.perspective-right {
+.perspective-right > .elementor-widget-container {
   perspective: 1500px;
 }
 
