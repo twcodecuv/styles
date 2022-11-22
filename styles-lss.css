@@ -161,7 +161,12 @@ Persective Styles And Drop Shadows- Author: CodeCUV
 Sun Banner - Curved Sides
 * ---------------------------------------------- */
 .sun-box {
-  border-radius: 20px 20px;
+  border-radius: 150px 150px 0px 0px;
+  background: linear-gradient(
+    175deg,
+    rgba(150, 150, 150, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 /* *----------------------------------------------
