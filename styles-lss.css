@@ -1,5 +1,5 @@
 /*
-Version: 1.0.1.2
+Version: 1.0.2
 Author: Clinuvel web team
 Author URI: https://www.clinuvel.com/
 License: GNU General Public License v2 or later
@@ -18,6 +18,12 @@ currently in use.
 	TABLE OF CONTENTS:
 
 	0.	Element Base
+		- 0.0 General
+		- 0.1 Posts
+		- 0.2 Pages
+		- 0.3 Blockquotes
+		- 0.4 Asides
+
 	1.  Helpers
 	2.  Customisations
 	3.	Media Queries
@@ -30,9 +36,10 @@ currently in use.
 
 ---------------------------- */
 
-/**
-	0.0.1	General
-*/
+/**	----------------------------
+	0.0		General
+---------------------------- */
+
 h1,
 h2,
 h3,
@@ -59,21 +66,22 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
-.page.container {
+
+.single-post .container {
   margin-bottom: 40px;
   max-width: 1400px;
   padding: 0 40px;
 }
-.page.container main {
+.single-post .container main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.page.container article {
+.single-post .container article {
   margin-right: 40px;
   width: 71%;
 }
-.page.container aside {
+.single-post .container aside {
   width: 29%;
 }
 
@@ -102,10 +110,6 @@ blockquote.wp-block-quote {
   text-transform: uppercase;
 }
 
-.ob-has-background-overlay > .elementor-widget-container .perspective-left {
-  perspective: 1500px;
-}
-
 /**
 	0.0.2	General_Customisaion_Author_Code
 */
@@ -129,6 +133,16 @@ Persective Styles And Drop Shadows- Author: CodeCUV
   border-radius: 20px 20px;
 }
 
+.middle-perspective > .elementor-widget-container {
+  perspective: 1500px;
+}
+
+.middle-perspective img {
+  border-radius: 20px 20px;
+  box-shadow: 10px 10px 10px rgb(0 0 13 / 40%);
+  transform: rotateX(-4deg) rotateX(-8deg) translateZ(-145px);
+  margin-top: 2em;
+}
 .perspective-right > .elementor-widget-container {
   perspective: 1500px;
 }
@@ -137,17 +151,6 @@ Persective Styles And Drop Shadows- Author: CodeCUV
   transform: rotateY(-15deg) rotateX(0) translateZ(-20px);
   box-shadow: 30px -5px 23px rgb(0 0 13 / 40%);
   border-radius: 20px 20px;
-}
-
-.middle-container > .elementor-widget-container {
-  perspective: 1500px;
-}
-
-.middle-container img {
-  border-radius: 20px 20px;
-  box-shadow: 10px 10px 10px rgb(0 0 13 / 40%);
-  transform: rotateX(-4deg) rotateX(-8deg) translateZ(-145);
-  margin-top: 2em;
 }
 
 /* *
@@ -255,11 +258,40 @@ figure.page-banner .wp-post-image {
 }
 
 /**	----------------------------
-	0.2		Blockquotes
+	0.2		Pages
 ---------------------------- */
 
 /**
-	0.2.1	Q&A - Your Stories
+	0.2.1	General
+*/
+
+.page .container {
+  margin-bottom: 40px;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+.page .container > header,
+.page .container > main {
+  max-width: 100%;
+}
+.wp-block-group,
+.wp-block-columns {
+  margin: 0 auto;
+  max-width: 1400px; /** MQ: Required **/
+}
+
+.width-full {
+  max-width: 100%;
+  width: 100%;
+}
+
+/**	----------------------------
+	0.3		Blockquotes
+---------------------------- */
+
+/**
+	0.3.1	Q&A - Your Stories
 */
 
 .q-and-a {
@@ -306,11 +338,11 @@ figure.page-banner .wp-post-image {
 }
 
 /**	----------------------------
-	0.3		Asides
+	0.4		Asides
 ---------------------------- */
 
 /**
-	0.3.1	Ambassadors template
+	0.4.1	Ambassadors template
 */
 .post-template-lss-ambassador aside {
   margin: 0 45px;
