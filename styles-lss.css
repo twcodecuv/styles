@@ -134,7 +134,7 @@ Persective Styles And Drop Shadows- Author: CodeCUV
 }
 
 .perspective-right img {
-  transform: rotateY(-15deg) rotateX(0) translateZ(-20deg);
+  transform: rotateY(-15deg) rotateX(0) translateZ(-20px);
   box-shadow: 30px -5px 23px rgb(0 0 13 / 40%);
   border-radius: 20px 20px;
 }
