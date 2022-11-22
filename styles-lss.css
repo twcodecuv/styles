@@ -163,12 +163,9 @@ Sun Banner - Curved Sides
 .sun-box {
   border-radius: 150px 150px 0px 0px;
   background: linear-gradient(
-    175deg,
-    linear-gradient(
-      179deg,
-      rgba(150, 150, 150, 1) 0%,
-      rgba(255, 255, 255, 1) 81%
-    )
+    179deg,
+    rgba(150, 150, 150, 1) 0%,
+    rgba(255, 255, 255, 1) 81%
   );
 }
 
