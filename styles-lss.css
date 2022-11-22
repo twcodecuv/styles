@@ -114,9 +114,9 @@ blockquote.wp-block-quote {
 	0.0.2	General_Customisaion_Author_Code
 */
 
-/* *-----------------------------------------------
+/* *------------------------------------------------
 Persective Styles And Drop Shadows- Author: CodeCUV 
-* ---------------------------------------------- */
+----------------------------------------------------* */
 
 .inner-sec {
   width: 100%;
@@ -143,6 +143,7 @@ Persective Styles And Drop Shadows- Author: CodeCUV
   transform: rotateX(-4deg) rotateX(-8deg) translateZ(-145px);
   margin-top: 2em;
 }
+
 .perspective-right > .elementor-widget-container {
   perspective: 1500px;
 }
@@ -153,22 +154,21 @@ Persective Styles And Drop Shadows- Author: CodeCUV
   border-radius: 20px 20px;
 }
 
-/* *----------------------------------------------
+/* *--------------------------------------------------------
 Persective Styles And Drop Shadows- Author: CodeCUV 
-* ---------------------------------------------- */
+-----------------------------------------------------------* */
 
-/* *----------------------------------------------
-Sun Banner - Curved Sides
-* ---------------------------------------------- */
+/* *--------------------------------------------------------
+Sun Banner - Curverd Sides 
+-----------------------------------------------------------* */
 .sun-box {
   border-radius: 150px 150px 0px 0px;
   background: #f2f2f2;
   margin-top: 160px;
 }
-
-/* *----------------------------------------------
-Sun Banner - Curved Sides
-* ---------------------------------------------- */
+/* *--------------------------------------------------------
+Sun Banner - Curverd Sides 
+-----------------------------------------------------------* */
 
 /**	----------------------------
 	0.1		Posts
