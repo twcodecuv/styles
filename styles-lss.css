@@ -146,7 +146,8 @@ Persective Styles And Drop Shadows- Author: CodeCUV
 .middle-container img {
   border-radius: 20px 20px;
   box-shadow: 10px 10px 10px rgb(0 0 13 / 40%);
-  transform: rotateX(-2deg) rotateX(-3deg) translateZ(-230px);
+  transform: rotateX(-4deg) rotateX(-8deg) translateZ(-145);
+  margin-top: 2em;
 }
 
 /* *
