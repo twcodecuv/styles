@@ -180,7 +180,10 @@ Footer Styles
   margin-bottom: 0.5rem;
 }
 
-.foot-list .menu ul {
+.foot-list #menu-footer-column-one,
+#menu-footer-column-two,
+#menu-footer-column-three,
+#menu-footer-column-four ul {
   padding: 0;
 }
 
