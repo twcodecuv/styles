@@ -184,7 +184,7 @@ Footer Styles
 #menu-footer-column-two,
 #menu-footer-column-three,
 #menu-footer-column-four,
-ul {
+.menu ul {
   padding: 0;
 }
 
