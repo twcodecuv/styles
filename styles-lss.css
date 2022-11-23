@@ -174,9 +174,14 @@ Sun Banner - Curverd Sides
 Footer Styles 
 -----------------------------------------------------------* */
 
-.foot-list {
+.foot-list li {
   color: #fff;
   list-style: none;
+}
+
+.foot-list a {
+  color: #fff;
+  margin-right: 30px;
 }
 
 /* *--------------------------------------------------------
