@@ -183,7 +183,8 @@ Footer Styles
 .foot-list #menu-footer-column-one,
 #menu-footer-column-two,
 #menu-footer-column-three,
-#menu-footer-column-four ul {
+#menu-footer-column-four,
+ul {
   padding: 0;
 }
 
