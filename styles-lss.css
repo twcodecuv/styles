@@ -177,6 +177,7 @@ Footer Styles
 .foot-list li {
   color: #fff;
   list-style: none;
+  padding-top: 10px;
 }
 
 .foot-list a {
