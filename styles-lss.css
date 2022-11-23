@@ -177,6 +177,7 @@ Footer Styles
 .foot-list h5 {
   color: #fff;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .foot-list .menu ul {
@@ -185,12 +186,12 @@ Footer Styles
 
 .foot-list li {
   list-style: none;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .foot-list a {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1rem;
 }
 
 /* *--------------------------------------------------------
