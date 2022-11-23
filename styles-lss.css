@@ -173,16 +173,13 @@ Sun Banner - Curverd Sides
 /* *--------------------------------------------------------
 Footer Styles 
 -----------------------------------------------------------* */
-ul {
-  padding-left: 0;
-}
 
 .foot-list h5 {
   color: #fff;
   font-weight: bold;
 }
 
-.foot-list .menu-footer-column-two-container ul {
+.foot-list .menu ul {
   padding-left: 0;
 }
 
